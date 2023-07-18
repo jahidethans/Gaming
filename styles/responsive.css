@@ -21,10 +21,30 @@
         transform: scale(0.8);
     }
     .banner-description{
-        transform: scale(0.6);
+        transform: scale(0.8);
+        padding-top: 20px;
     }
     .banner-image img{
         width: 70%;
         margin-left: 15%;
     }
+    /* about section starts here */
+.gamer{
+    flex-direction: column-reverse;
+    gap: 0;
+}
+.gamer img{
+    width: 100%;
+}
+.gamer-about{
+    text-align: center;
+    transform: scale(0.8);
+}
+.gamer-about-description{
+    line-height: normal;
+    font-size: 15px;
+}
+.slogan{
+    font-size: 25px;
+}
 }
