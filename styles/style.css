@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+.text-blue-grey {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -123,6 +129,51 @@ body {
     font-weight: 600;
     text-transform: uppercase;
 }
-.btn-two{
+
+.btn-two {
     background-color: #4EC5F7;
+}
+
+/*About gamer community starts here */
+.gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-bottom: 3.3rem;
+}
+
+.gamer-about {
+    text-align: right;
+}
+
+.gamer-about>h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 1.5rem;
+}
+
+.gamer-about-description {
+    line-height: 150%;
+    padding-bottom: 2rem;
+}
+.purpose{
+    padding-top: 1.5rem;
+    color: #534C64;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 45px;
+}
+.slogan{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
 }
