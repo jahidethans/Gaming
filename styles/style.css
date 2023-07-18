@@ -25,10 +25,11 @@ body {
     display: flex;
     align-items: center;
     color: #0B0223;
-font-size: 2.8rem;
-font-weight: 700;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
-.primary-color{
+
+.primary-color {
     color: #FF42A5;
 }
 

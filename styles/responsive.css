@@ -1,0 +1,13 @@
+@media screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding-top: 103px;
+        gap: 62px;
+        box-shadow: none;
+    }
+    
+    .menu{
+        flex-direction: column;
+    }
+}
