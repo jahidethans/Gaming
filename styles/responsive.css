@@ -1,13 +1,31 @@
 @media screen and (max-width: 576px) {
     .navbar{
         flex-direction: column;
-        height: auto;
-        padding-top: 103px;
+        height: 300px;
+        padding-top: 100px;
         gap: 62px;
         box-shadow: none;
     }
     
     .menu{
         flex-direction: column;
+    }
+    
+    /* banner starts here */
+    .banner{
+        flex-direction: column;
+        gap: 2rem;
+        background-size: 90%;
+        background-position-y: 10%;
+        background-size: 110%;
+        transform: scale(0.8);
+        margin-top: ;
+    }
+    .banner-description{
+        transform: scale(0.6);
+    }
+    .banner-image img{
+        width: 70%;
+        margin-left: 15%;
     }
 }
