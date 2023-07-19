@@ -194,16 +194,18 @@ body {
     gap: 1.5rem;
 }
 
-.card > p {
+.card>p {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     padding-bottom: 7.5rem;
 }
-.card{
+
+.card {
     position: relative;
 }
-.play-button{
+
+.play-button {
     position: absolute;
     top: 28%;
     left: 50%;
@@ -218,27 +220,64 @@ body {
     padding: 8px 5px 8px 10px;
 
 }
-.play-text{
+
+.play-text {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, 50%); 
+    transform: translate(-50%, 50%);
     color: #f80482;
     font-weight: 500;
     display: none;
 }
-.card:hover .play-button{
+
+.card:hover .play-button {
     display: block;
-    
+
 }
-.card:hover .play-text{
+
+.card:hover .play-text {
     display: block;
 }
-.card:hover img{
-    opacity: 0.7;
+
+.card:hover img {
+    filter: brightness(50%);
     cursor: pointer;
 }
-    
-    
-    
 
+/* play-now section starts here */
+.play-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+
+.img-one {
+    position: relative;
+}
+
+.img-one>img {
+
+    width: 40rem;
+
+}
+
+.img-two img {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+
+}
+
+.play-now-text>h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-now-text>p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}

@@ -64,4 +64,33 @@
 .play-text{
     padding-top: 10px;
 }
+
+/* Play now starts here */
+
+.play-now{
+    flex-direction: column-reverse;
+    gap: 0px;
+    justify-content: space-between;
+}
+.play-now-image{
+    transform: scale(0.4);
+    margin-left: 10px;
+    position: relative;
+    gap
+    left: 0px;
+}
+.play-now-text{
+    text-align: center;
+    margin-top: 30px;
+   height: 90px;
+}
+.play-now-text>h1{
+    font-size: 2rem;
+    line-height: 40px;
+    margin-bottom: 1.2rem;
+}
+.play-now-text>p{
+    font-size: 1rem;
+}
+
 }
