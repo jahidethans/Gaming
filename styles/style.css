@@ -134,10 +134,12 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn-two {
     background-color: #4EC5F7;
+    cursor: pointer;
 }
 
 /*About gamer community starts here */
