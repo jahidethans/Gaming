@@ -6,16 +6,25 @@
     box-sizing: border-box;
 }
 
-.text-blue-grey {
-    color: #534C64;
-    font-size: 18px;
-    font-weight: 400;
-}
+
 
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+.text-primary {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text-blue-grey {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* Navbar Starts Here */
@@ -91,10 +100,7 @@ body {
 .banner-name {
     font-size: 95px;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+
 }
 
 .banner ul {
@@ -151,10 +157,6 @@ body {
 .gamer-about>h2 {
     font-size: 3rem;
     font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding-bottom: 1.5rem;
 }
 
@@ -162,18 +164,39 @@ body {
     line-height: 150%;
     padding-bottom: 2rem;
 }
-.purpose{
+
+.purpose {
     padding-top: 1.5rem;
     color: #534C64;
-font-size: 1.5rem;
-font-weight: 500;
-line-height: 45px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
 }
-.slogan{
+
+.slogan {
     color: #534C64;
-font-family: Work Sans;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: 45px;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* game video section starts here */
+.game-video-description {
+    text-align: center;
+    padding: 7.5rem 0 3rem;
+}
+
+.image-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card>p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 7.5rem;
 }
