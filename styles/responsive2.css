@@ -1,0 +1,67 @@
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+    .navbar {
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 6rem;
+        padding-bottom: 7rem;
+        width: 100%;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 2rem;
+        background-position-y: -60%;
+        background-size: 100%;
+        transform: scale(0.8);
+
+    }
+
+    .gamer {
+        flex-direction: column;
+        
+    }
+
+    .gamer-about {
+        transform: scale(0.8);
+        text-align: center;
+    }
+
+    .gamer img {
+        transform: scale(0.7);
+    }
+
+    .image-cards {
+        transform: scale(0.9);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-now {
+        flex-direction: column-reverse;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .play-now-image {
+        transform: scale(0.7);
+    }
+    .game-type{
+        height: 60vh;
+    }
+
+    .game-type-row-one {
+        grid-template-columns: repeat(2, 200px);
+        flex-wrap: wrap;
+    }
+    .game-type-row-two{
+        grid-template-columns: repeat(2, 200px); 
+    }
+    footer{
+        height: 100%;
+        padding-bottom: 40px;
+       
+}
+
+}
