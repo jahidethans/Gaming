@@ -71,12 +71,12 @@
     flex-direction: column-reverse;
     gap: 0px;
     justify-content: space-between;
+    margin-bottom: -80px;
 }
 .play-now-image{
     transform: scale(0.4);
     margin-left: 10px;
     position: relative;
-    gap
     left: 0px;
 }
 .play-now-text{
@@ -91,6 +91,18 @@
 }
 .play-now-text>p{
     font-size: 1rem;
+}
+
+/* game type section starts here */
+.game-type{
+    height: 75vh;
+}
+.game-type-row-one{
+    grid-template-columns: repeat(2, 200px);
+    flex-wrap: wrap;
+}
+.game-type-row-two{
+    grid-template-columns: repeat(2, 200px); 
 }
 
 }
