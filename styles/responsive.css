@@ -105,4 +105,19 @@
     grid-template-columns: repeat(2, 200px); 
 }
 
+/* footer section starts here */
+footer{
+    height: 110vh;
+    padding: 70px;
+}
+.footer-about{
+    flex-wrap: wrap;
+}
+.footer-social{
+    flex-wrap: wrap;
+}
+.footer-info{
+    flex-wrap: wrap;
+}
+
 }
