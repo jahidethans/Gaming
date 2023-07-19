@@ -282,13 +282,15 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+
 /* game-type section starts here */
 
-.game-type{
+.game-type {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     height: 37vh;
 }
-.game-type-row-one{
+
+.game-type-row-one {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 200px);
@@ -297,17 +299,18 @@ body {
     margin-bottom: 1.5rem;
     padding-top: 6%;
 }
-.game-type-row-two{
+
+.game-type-row-two {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 200px);
     justify-content: center;
     gap: 1.5rem;
     margin-bottom: 7.5rem;
-    
+
 }
 
-.grid-container{
+.grid-container {
     display: flex;
     border-radius: 50px;
     align-items: center;
@@ -316,20 +319,84 @@ body {
     border: none;
     background: #FFF;
 }
-.grid-container:hover{
+
+.grid-container:hover {
     border: 2px #FF42A5 solid;
     cursor: pointer;
 }
 
-.grid-container img{
+.grid-container img {
     width: 3rem;
 }
-.grid-container > h2{
+
+.grid-container>h2 {
     color: #0B0223;
-font-size: 0.7rem;
-font-weight: 600;
-line-height: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 10px;
 }
-.grid-container:hover > h2{
+
+.grid-container:hover>h2 {
     color: #FF42A5;
+}
+
+
+footer {
+    background-color: #0B0223;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    padding-top: 7.5rem;
+}
+
+.footer-logo-and-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+
+}
+
+.footer-logo-name {
+    color: #FFF;
+    font-size: 2.8rem;
+}
+.footer-about{
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.footer-about a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.12rem;
+    font-weight: 600;
+    
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-bottom: 4rem;
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 1.8rem;
+}
+.footer-info a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
 }

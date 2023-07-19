@@ -95,7 +95,7 @@
 
 /* game type section starts here */
 .game-type{
-    height: 75vh;
+    height: 55vh;
 }
 .game-type-row-one{
     grid-template-columns: repeat(2, 200px);
