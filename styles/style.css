@@ -251,6 +251,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20rem;
+    margin-bottom: 20vh;
 }
 
 .img-one {
@@ -280,4 +281,55 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+/* game-type section starts here */
+
+.game-type{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 37vh;
+}
+.game-type-row-one{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 6%;
+}
+.game-type-row-two{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 7.5rem;
+    
+}
+
+.grid-container{
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    background: #FFF;
+}
+.grid-container:hover{
+    border: 2px #FF42A5 solid;
+    cursor: pointer;
+}
+
+.grid-container img{
+    width: 3rem;
+}
+.grid-container > h2{
+    color: #0B0223;
+font-size: 0.7rem;
+font-weight: 600;
+line-height: 10px;
+}
+.grid-container:hover > h2{
+    color: #FF42A5;
 }
