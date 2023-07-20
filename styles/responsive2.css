@@ -1,12 +1,17 @@
 @media screen and (min-width: 577px) and (max-width: 992px) {
     
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
     .navbar {
         flex-direction: column;
         gap: 2rem;
         padding-top: 6rem;
         padding-bottom: 7rem;
         width: 100%;
-        box-shadow: none;
+        /* box-shadow: none; */
     }
 
     .banner {
@@ -20,7 +25,7 @@
 
     .gamer {
         flex-direction: column;
-        background: none;
+        /* background: none; */
         
     }
 

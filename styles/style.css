@@ -308,7 +308,7 @@ line-height: 30px;
 .game-type-row-one {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: repeat(5, 150px);
     justify-content: center;
     gap: 1.5rem;
     padding-bottom: 1.5rem;
@@ -318,7 +318,7 @@ line-height: 30px;
 .game-type-row-two {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, 150px);
     justify-content: center;
     gap: 1.5rem;
     padding-bottom: 7.5rem;
@@ -330,7 +330,7 @@ line-height: 30px;
     border-radius: 50px;
     align-items: center;
     gap: 0.6rem;
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 1px 0.3rem 0.5rem;
     border: none;
     background: #FFF;
 }
@@ -341,7 +341,7 @@ line-height: 30px;
 }
 
 .grid-container img {
-    width: 3rem;
+    width: 2rem;
 }
 
 .grid-container>h2 {
@@ -361,7 +361,7 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 70vh;
     padding-top: 7.5rem;
     width: 100%;
 }
